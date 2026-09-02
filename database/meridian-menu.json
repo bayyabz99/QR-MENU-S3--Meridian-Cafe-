@@ -1,0 +1,445 @@
+{
+  "restaurant": {
+    "name": "Meridian Cafe",
+    "category": "Coffee Store / Kafe",
+    "slogan": "3. Nesil Nitelikli Kahve & Özel Tatlılar",
+    "description": "Minimalist ve sıcak mekanıyla Konya Meram'da 3. nesil demleme kahveler, zengin soğuk/sıcak içecekler ve nefis taze tatlılar sunan konsept kafe.",
+    "phone": "0546 662 42 49",
+    "phone_unformatted": "05466624249",
+    "address": "Sahibiata, Eşrefoğlu Sk. No:25D, 42040 Meram / Konya",
+    "plus_code": "VFCV+5R Meram, Konya",
+    "working_hours": "Açık - Kapanış: 23:00",
+    "closing_time": "23:00",
+    "price_range": "₺200 - ₺400",
+    "google_rating": 5.0,
+    "reviews_count": 46,
+    "google_maps_url": "https://maps.google.com/?q=Sahibiata,+E%C5%9Frefo%C4%9Flu+Sk.+No:25D,+42040+Meram/Konya",
+    "google_maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.25!2d32.488!3d37.868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzd8NDcnMDQuOCJOIDMywrAyOScyOC44IkU!5e0!3m2!1str!2str!4v1700000000000"
+  },
+  "theme": {
+    "colors": {
+      "primary_sage": "#8FA396",
+      "primary_sage_dark": "#768A7D",
+      "primary_sage_light": "#E8EFEA",
+      "warm_wood": "#5C3D2E",
+      "dark_oak": "#3D261D",
+      "amber_accent": "#C49A6C",
+      "cream_bg": "#F9F6F0",
+      "cream_paper": "#FFFDF9",
+      "matte_black": "#1F2421",
+      "charcoal": "#2B302C",
+      "text_main": "#1F2421",
+      "text_muted": "#6E7570"
+    },
+    "typography": {
+      "heading_font": "'Cormorant Garamond', 'Playfair Display', serif",
+      "body_font": "'Outfit', 'Inter', sans-serif"
+    }
+  },
+  "global_extras": [
+    { "id": "ext-1", "name": "Extra Espresso", "price": 40 },
+    { "id": "ext-2", "name": "Extra Sos", "price": 50 },
+    { "id": "ext-3", "name": "Badem Sütü", "price": 50 },
+    { "id": "ext-4", "name": "Yulaf Sütü", "price": 50 }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sıcak Kahveler",
+      "slug": "sicak-kahveler",
+      "icon": "fas fa-mug-hot",
+      "description": "Özel harman çekirdeklerden taze taze demlenen sıcak espresso bazlı kahveler",
+      "order_index": 1,
+      "products": [
+        {
+          "name": "Espresso",
+          "slug": "espresso",
+          "description": "Özel kavrum %100 Arabica çekirdeklerinden yoğun ve gövdeli tek shot espresso",
+          "base_price": 90,
+          "has_variants": false,
+          "variants": [{ "size": "S", "label": "Küçük Boy (S)", "price": 90 }],
+          "allow_extras": true
+        },
+        {
+          "name": "Americano",
+          "slug": "americano",
+          "description": "Double espresso shot'ının sıcak su ile yumuşatılmış dengeli lezzeti",
+          "base_price": 130,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 130 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 150 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Latte",
+          "slug": "latte",
+          "description": "Espresso ve kremsi sıcak sütün mükemmel uyumu",
+          "base_price": 150,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 150 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Cappuccino",
+          "slug": "cappuccino",
+          "description": "Espresso, sıcak süt ve kadifemsi yoğun süt köpüğü",
+          "base_price": 160,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 160 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 180 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Cortado",
+          "slug": "cortado",
+          "description": "Eşit miktarda espresso ve sıcak kadifemsi süt",
+          "base_price": 135,
+          "has_variants": false,
+          "variants": [{ "size": "S", "label": "Küçük Boy (S)", "price": 135 }],
+          "allow_extras": true
+        },
+        {
+          "name": "Flat White",
+          "slug": "flat-white",
+          "description": "Ristretto espresso üzerine mikro dokulu ince süt köpüğü",
+          "base_price": 180,
+          "has_variants": false,
+          "variants": [{ "size": "M", "label": "Orta Boy (M)", "price": 180 }],
+          "allow_extras": true
+        },
+        {
+          "name": "Mocha",
+          "slug": "mocha",
+          "description": "Espresso, Belçika çikolatası ve sıcak sütün tatlı buluşması",
+          "base_price": 165,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 165 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 185 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "White Mocha",
+          "slug": "white-mocha",
+          "description": "Espresso, nefis beyaz çikolata sosu ve kıvamlı süt",
+          "base_price": 165,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 165 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 185 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "HazelNut Latte",
+          "slug": "hazelnut-latte",
+          "description": "Doğal fındık aromalı şurup ile zenginleştirilmiş latte",
+          "base_price": 160,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 160 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 180 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "ToffeNut Latte",
+          "slug": "toffenut-latte",
+          "description": "Karamelize tereyağlı fındık lezzetiyle tatlandırılmış espresso latte",
+          "base_price": 160,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 160 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 180 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Cookie Latte",
+          "slug": "cookie-latte",
+          "description": "Kurabiye aroması ve hafif tarçın dokunuşlu özel latte",
+          "base_price": 160,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 160 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 180 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Filtre Kahve",
+          "slug": "filtre-kahve",
+          "description": "Günlük taze çekilmiş nitelikli kahve çekirdeklerinden demlenmiş klasik filtre kahve",
+          "base_price": 125,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 125 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 140 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Caramel Macchiato",
+          "slug": "caramel-macchiato",
+          "description": "Vanilya şurubu, sıcak süt, espresso katmanı ve karamel sos dokunuşu",
+          "base_price": 175,
+          "has_variants": true,
+          "variants": [
+            { "size": "S", "label": "Küçük Boy (S)", "price": 175 },
+            { "size": "M", "label": "Orta Boy (M)", "price": 195 }
+          ],
+          "allow_extras": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Soğuk Kahveler",
+      "slug": "soguk-kahveler",
+      "icon": "fas fa-glass-whiskey",
+      "description": "Buz gibi ferahlatıcı espresso ve süt bazlı soğuk kahve çeşitleri",
+      "order_index": 2,
+      "products": [
+        {
+          "name": "Ice Americano",
+          "slug": "ice-americano",
+          "description": "Bol buz ve soğuk su ile hazırlanan ferahlatıcı double shot espresso",
+          "base_price": 140,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 140 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 160 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Latte",
+          "slug": "ice-latte",
+          "description": "Soğuk süt, bol buz ve taze çekilmiş espresso",
+          "base_price": 160,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 160 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 180 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Cappuccino",
+          "slug": "ice-cappuccino",
+          "description": "Buzlu soğuk süt, espresso ve soğuk süt köpüğü katmanı",
+          "base_price": 170,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 190 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Flat White",
+          "slug": "ice-flat-white",
+          "description": "Yoğun çift shot ristretto espresso ve soğuk mikro süt köpüğü",
+          "base_price": 190,
+          "has_variants": false,
+          "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 190 }],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Mocha",
+          "slug": "ice-mocha",
+          "description": "Çikolata sosu, soğuk süt, buz ve yoğun espresso",
+          "base_price": 175,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 175 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 195 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice White Mocha",
+          "slug": "ice-white-mocha",
+          "description": "Beyaz çikolata sosu, soğuk süt, buz ve dengeli espresso",
+          "base_price": 175,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 175 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 195 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice HazelNut Latte",
+          "slug": "ice-hazelnut-latte",
+          "description": "Fındık aroması, soğuk süt, buz ve taze espresso",
+          "base_price": 170,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 190 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice ToffeNut Latte",
+          "slug": "ice-toffenut-latte",
+          "description": "Karamelize fındık aromalı şurup, soğuk süt ve buzlu espresso",
+          "base_price": 170,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 190 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Vanilya Latte",
+          "slug": "ice-vanilya-latte",
+          "description": "Doğal vanilya aroması, soğuk süt ve espresso",
+          "base_price": 170,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 190 }
+          ],
+          "allow_extras": true
+        },
+        {
+          "name": "Ice Cookie Latte",
+          "slug": "ice-cookie-latte",
+          "description": "Bisküvi aromalı şurup, bol buz, soğuk süt ve espresso",
+          "base_price": 170,
+          "has_variants": true,
+          "variants": [
+            { "size": "M", "label": "Orta Boy (M)", "price": 170 },
+            { "size": "L", "label": "Büyük Boy (L)", "price": 190 }
+          ],
+          "allow_extras": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sıcak & Soğuk İçecekler",
+      "slug": "sicak-soguk-icecekler",
+      "icon": "fas fa-coffee",
+      "description": "Geleneksel çaylar, ferahlatıcı meyve suları ve sıcak içecek alternatifleri",
+      "order_index": 3,
+      "products": [
+        { "name": "Su", "slug": "su", "description": "330 ml cam şişe doğal kaynak suyu", "base_price": 40, "has_variants": false, "variants": [] },
+        { "name": "Soda", "slug": "soda", "description": "Doğal zengin mineralli sade maden suyu", "base_price": 50, "has_variants": false, "variants": [] },
+        { "name": "Meyveli Soda", "slug": "meyveli-soda", "description": "Elma, limon veya çilek aromalı ferahlatıcı soda", "base_price": 70, "has_variants": false, "variants": [] },
+        { "name": "Gazoz", "slug": "gazoz", "description": "Nostaljik ferahlatıcı gazoz", "base_price": 90, "has_variants": false, "variants": [] },
+        { "name": "Mineral Su", "slug": "mineral-su", "description": "Yüksek mineralli doğal cam şişe maden suyu", "base_price": 60, "has_variants": false, "variants": [] },
+        { "name": "Portakal Suyu", "slug": "portakal-suyu", "description": "%100 taze sıkılmış günlük portakal suyu", "base_price": 180, "has_variants": false, "variants": [] },
+        { "name": "Limonata", "slug": "limonata", "description": "Ev yapımı nane yapraklı taze sıkım limonata", "base_price": 180, "has_variants": false, "variants": [] },
+        { "name": "Çay", "slug": "cay", "description": "Taze demlenmiş Karadeniz çayı (Bardak)", "base_price": 40, "has_variants": false, "variants": [] },
+        { "name": "Fincan Çay", "slug": "fincan-cay", "description": "Büyük boy porselen fincanda taze demlenmiş çay", "base_price": 50, "has_variants": false, "variants": [] },
+        { "name": "Sıcak Çikolata", "slug": "sicak-cikolata", "description": "Yoğun kıvamlı Belçika çikolatalı sıcak içecek", "base_price": 150, "has_variants": false, "variants": [] },
+        { "name": "Bitki Çayları", "slug": "bitki-caylari", "description": "Adaçayı, Ihlamur, Yeşil Çay, Papatya ve Kış Çayı seçenekleri", "base_price": 135, "has_variants": false, "variants": [] },
+        { "name": "Salep", "slug": "salep", "description": "Geleneksel sütlü ve bol tarçınlı sıcak salep", "base_price": 150, "has_variants": false, "variants": [] }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Buzlu İçecekler",
+      "slug": "buzlu-icecekler",
+      "icon": "fas fa-blender",
+      "description": "Zengin aromalı kremsi milkshake'ler, karlı frozen'lar ve frappe çeşitleri",
+      "order_index": 4,
+      "products": [
+        { "name": "Çikolatalı Milkshake", "slug": "cikolatali-milkshake", "description": "Çikolatalı dondurma, soğuk süt ve krem şanti (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Karamelli Milkshake", "slug": "karamelli-milkshake", "description": "Karamel soslu dondurmalı kremsi milkshake (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Vanilyalı Milkshake", "slug": "vanilyali-milkshake", "description": "Gerçek vanilya çubuğu aromalı milkshake (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Çilekli Milkshake", "slug": "cilekli-milkshake", "description": "Taze çilek püresi ve sütlü kremsi dondurma (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Frambuazlı Milkshake", "slug": "frambuazli-milkshake", "description": "Mayhoş frambuaz parçacıklı milkshake (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Mangolu Milkshake", "slug": "mangolu-milkshake", "description": "Egzotik mango püreli ve sütlü milkshake (L)", "base_price": 200, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 200 }] },
+        { "name": "Böğürtlenli Frozen", "slug": "bogurtlenli-frozen", "description": "Buz kırıklı böğürtlen özlü ferahlatıcı soğuk içecek (L)", "base_price": 180, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 180 }] },
+        { "name": "Orman Meyveli Frozen", "slug": "orman-meyveli-frozen", "description": "Karışık orman meyveleri ve buz kırıkları (L)", "base_price": 180, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 180 }] },
+        { "name": "Mango Frozen", "slug": "mango-frozen", "description": "Tropikal mango püresi ve kırılmış buz (L)", "base_price": 180, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 180 }] },
+        { "name": "Çilekli Frozen", "slug": "cilekli-frozen", "description": "Taze çilek özü ve karlı buz dokusu (L)", "base_price": 180, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 180 }] },
+        { "name": "Espresso Frappe", "slug": "espresso-frappe", "description": "Espresso, süt, buz kırıkları ve isteğe bağlı şurup blender karışımı (L)", "base_price": 160, "has_variants": false, "variants": [{ "size": "L", "label": "Büyük Boy (L)", "price": 160 }] }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kokteyller",
+      "slug": "kokteyler",
+      "icon": "fas fa-cocktail",
+      "description": "Meridian Cafe'ye özel alkolsüz imza ve ferahlatıcı kokteyl seçenekleri",
+      "order_index": 5,
+      "products": [
+        { "name": "Meri Down", "slug": "meri-down", "description": "Meridian Cafe imza kokteyli: Özel egzotik meyve özleri ve ferahlatıcı lezzet dokunuşları", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Cool Lime", "slug": "cool-lime", "description": "Taze misket limonu, nane yaprakları ve ferahlatıcı özler", "base_price": 160, "has_variants": false, "variants": [] },
+        { "name": "Strawberry Acai", "slug": "strawberry-acai", "description": "Acai üzümü, çilek parçacıkları ve buzlu ferahlık", "base_price": 190, "has_variants": false, "variants": [] },
+        { "name": "Berry Hibiscus", "slug": "berry-hibiscus", "description": "Hibiskus demi, orman meyveleri ve serinletici buz", "base_price": 190, "has_variants": false, "variants": [] }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Geleneksel",
+      "slug": "geleneksel",
+      "icon": "fas fa-fire",
+      "description": "Közde ağır ağır pişen geleneksel Türk ve aromatik kahve çeşitleri",
+      "order_index": 6,
+      "products": [
+        { "name": "Türk Kahvesi", "slug": "turk-kahvesi", "description": "Özel kavrum ince çekilmiş Türk kahvesi, lokum ve su ile servis edilir", "base_price": 110, "has_variants": false, "variants": [] },
+        { "name": "Türk Kahvesi Double", "slug": "turk-kahvesi-double", "description": "Çift kişilik / duble fincanda yoğun geleneksel Türk kahvesi", "base_price": 160, "has_variants": false, "variants": [] },
+        { "name": "Dibek", "slug": "dibek", "description": "Taş dibekte havanla dövülmüş, yumuşak içimli aromatik kahve", "base_price": 120, "has_variants": false, "variants": [] },
+        { "name": "Menengiç", "slug": "menengic", "description": "Çitlembik meyvesinden hazırlanan doğal kafeinsiz sütlü özel kahve", "base_price": 120, "has_variants": false, "variants": [] }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "3. Nesil (Demleme Kahveler)",
+      "slug": "3-nesil-demleme-kahveler",
+      "icon": "fas fa-filter",
+      "description": "Tek kökenli (Single Origin) özel çekirdeklerle hazırlanan nitelikli manuel demlemeler",
+      "order_index": 7,
+      "products": [
+        { "name": "V60", "slug": "v60", "description": "Japon Hario V60 kağıt filtre yöntemiyle demlenen berrak ve zengin aromalı kahve", "base_price": 190, "has_variants": false, "variants": [] },
+        { "name": "Chemex", "slug": "chemex", "description": "Özel kalın filtre kağıdıyla demlenen pürüzsüz ve yüksek asiditeli nitelikli kahve", "base_price": 190, "has_variants": false, "variants": [] }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tatlılar",
+      "slug": "tatlilar",
+      "icon": "fas fa-birthday-cake",
+      "description": "Kahvenizin yanına eşlik edecek günlük taze imza pasta ve tatlı çeşitleri",
+      "order_index": 8,
+      "products": [
+        { "name": "San Sebastian", "slug": "san-sebastian", "description": "İçi akışkan, üzeri karamelize yanık Basque cheesecake", "base_price": 265, "has_variants": false, "variants": [] },
+        { "name": "Belçika Çikolatalı Pasta", "slug": "belcika-cikolatali-pasta", "description": "Gerçek Belçika çikolatalı ganaj kaplı yoğun pasta", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Cevizli Brownie", "slug": "cevizli-brownie", "description": "Bol cevizli ve çikolatalı fırınlanmış ıslak kek", "base_price": 220, "has_variants": false, "variants": [] },
+        { "name": "Fıstıklı Pasta", "slug": "fistikli-pasta", "description": "Antep fıstığı kremalı ve bol fıstık taneli katlı pasta", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Rulo Pasta", "slug": "rulo-pasta", "description": "Taze krema ve meyve dolgulu hafif rulo pasta", "base_price": 300, "has_variants": false, "variants": [] },
+        { "name": "Snickers Pasta", "slug": "snickers-pasta", "description": "Karamel, fıstık ve çikolatalı efsaneleşmiş lezzet", "base_price": 250, "has_variants": false, "variants": [] },
+        { "name": "Vişneli Burger", "slug": "visneli-burger", "description": "Özel tatlı ekmeği arasında vişne soslu nefis tatlı konsepti", "base_price": 210, "has_variants": false, "variants": [] },
+        { "name": "Frambuazlı Cheesecake", "slug": "frambuazli-cheesecake", "description": "Fırınlanmış cheesecake üzerine ekşi-tatlı frambuaz sosu", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Limon Cedric", "slug": "limon-cedric", "description": "Ferahlatıcı limon kremalı ve çıtır tabanlı özel monoporsiyon tatlı", "base_price": 260, "has_variants": false, "variants": [] },
+        { "name": "Mangolu Cedric", "slug": "mangolu-cedric", "description": "Tropikal mango dolgulu Cedric tatlısı", "base_price": 260, "has_variants": false, "variants": [] },
+        { "name": "Fıstıklı Cedric", "slug": "fistikli-cedric", "description": "Bol Antep fıstık dolgulu monoporsiyon Cedric", "base_price": 300, "has_variants": false, "variants": [] },
+        { "name": "Çilek Cedric", "slug": "cilek-cedric", "description": "Taze çilek taneleri ve hafif krema dolgulu Cedric", "base_price": 260, "has_variants": false, "variants": [] },
+        { "name": "Kahveli Cedric", "slug": "kahveli-cedric", "description": "Espresso aromalı ve özel kremalı Cedric tatlısı", "base_price": 280, "has_variants": false, "variants": [] },
+        { "name": "Vanilyalı Krep Pasta", "slug": "vanilyali-krep-pasta", "description": "İncecik krep katları arasında vanilyalı özel krema", "base_price": 250, "has_variants": false, "variants": [] },
+        { "name": "Sponnfull Vanilyalı", "slug": "sponnfull-vanilyali", "description": "Kaşık kaşık yenen yumuşacık vanilyalı kase tatlısı", "base_price": 250, "has_variants": false, "variants": [] },
+        { "name": "Lotus Cup", "slug": "lotus-cup", "description": "Karamelize Lotus Biscoff bisküvi ve kremalı kase tatlısı", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Orman Meyveli Cup", "slug": "orman-meyveli-cup", "description": "Frambuaz, böğürtlen ve krema katmanlı ferahlatıcı cup", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Fıstıklı Cup", "slug": "fistikli-cup", "description": "Antep fıstığı parçaları ve hafif krema ile hazırlanan cup", "base_price": 250, "has_variants": false, "variants": [] },
+        { "name": "ToffeNut Cup", "slug": "toffenut-cup", "description": "Karamelize tereyağlı fındık aromalı zengin kase tatlısı", "base_price": 240, "has_variants": false, "variants": [] },
+        { "name": "Dubai Cup", "slug": "dubai-cup", "description": "Çıtır kadayıf, Antep fıstığı ezmesi ve çikolata katmanlı meşhur Dubai tatlısı", "base_price": 285, "has_variants": false, "variants": [] },
+        { "name": "Çikolatalı Crunch", "slug": "cikolatali-crunch", "description": "Çıtır pirinç patlaklı ve yoğun Belçika çikolatalı crunch pasta", "base_price": 300, "has_variants": false, "variants": [] }
+      ]
+    }
+  ]
+}
